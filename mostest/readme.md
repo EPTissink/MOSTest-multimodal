@@ -11,7 +11,7 @@
 
 3. With ```submit_pvals2csv.slurm```:
    
-    - Create "FUMA-style" genome-wide significant loci, using https://github.com/precimed/python_convert
+    - Convert matlab output to CSV file
 
 3. With ```submit_clump.slurm```:
    
