@@ -1,4 +1,6 @@
-Assuming all relevant condFDR analyses are done. Do following steps:
+Start with running condFDR analyses with ```run_condFDR.py``` (see https://github.com/precimed/pleiofdr for more information). 
+
+Then, do the following steps:
 
 1. With ```multimodal_pleioprs.ipynb```:
 
