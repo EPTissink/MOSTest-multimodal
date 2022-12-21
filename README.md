@@ -3,7 +3,7 @@
 
 ### Corresponding paper
 
-> Tissink et al. (2022) Abundant pleiotropy across neuroimaging modalities identified through a multimodal multivariate genome-wide association study, bioRxiv, doi: 
+> Tissink et al. (2022) Abundant pleiotropy across neuroimaging modalities identified through a multimodal multivariate genome-wide association study, bioRxiv, doi: 10.1101/2022.12.20.521181
 
 ### Summary statistics
 
