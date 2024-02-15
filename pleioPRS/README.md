@@ -1,4 +1,6 @@
-Start with running condFDR analyses with ```run_condFDR.py``` (see https://github.com/precimed/pleiofdr for more information). 
+Following the procedure as published in Van der Meer, D., Shadrin, A. A., O’Connell, K., Bettella, F., Djurovic, S., Wolfers, T., ... & Kaufmann, T. (2022). Boosting schizophrenia genetics by utilizing genetic overlap with brain morphology. Biological psychiatry, 92(4), 291-298.
+
+Start with running condFDR analyses with ```run_condFDR.py``` (see https://github.com/precimed/pleiofdr for more information about installation etc). 
 
 Then, do the following steps:
 
