@@ -1,3 +1,5 @@
+Outline: association z-scores from non-permuted GWAS are used to estimate MOSTest test statistics, while z-scores from the permuted GWAS are used to estimate distribution of z-scores under null assumption of no association (null distribution). Null distribution is then used to calculate p-values of the the MOSTest test statistics. Produced MOSTest sumstats are then clumped to produce independent loci and corresponding lead SNPs. Finally Manhattan plot is produced.
+
 1. Create z-matrices with original and permuted GWAS z-scores across all phenotypes with ```mostest_multimodal.ipynb```. 
 
       - Two NxM matrices are created: one for original genotypes and another for permuted genotypes, where N is the number of variants tested in the GWASs and M is the number of phenotypes. 
@@ -5,8 +7,8 @@
       - NB! the order of variants and phenotypes should be the same in the original and corresponding permuted files. ```<prefix>.dat``` files are then used in the ```mostest_multimodal.m``` to estimate mostest test statistics and corresponding p-values.
 
 2. Run MOSTest with ```submit_mostest.slurm```. The main input of MOSTest are
-      - univariate GWAS summary statistics for each phenotype based on original genotypes (see plink folder)
-      - univariate GWAS summary statistics for each phenotype based on permuted genotypes (see plink folder)
+      - univariate GWAS summary statistics for each phenotype based on original genotypes (see ```plink``` folder)
+      - univariate GWAS summary statistics for each phenotype based on permuted genotypes (see ```plink``` folder)
       - z-matrices created in 1.
 
 3. With ```submit_pvals2csv.slurm```:
