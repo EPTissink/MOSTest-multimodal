@@ -7,7 +7,7 @@
 
 ### Summary statistics
 
-Genome-wide summary statistics are publicly available via [https://ctg.cncr.nl/software/summary_statistics/](https://cncr.nl/research/summary_statistics/) and GWAS Catalog. 
+Genome-wide summary statistics are publicly available via [CTG Lab](https://cncr.nl/research/summary_statistics/) and [GWAS Catalog](http://www.ebi.ac.uk/gwas/publications/38531894). 
 
 ### Scripts
 
